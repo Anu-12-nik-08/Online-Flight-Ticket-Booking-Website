@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlightTicketBookingOnline</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- internal CSS -->
+
+    <style>
+
+        .container{
+            background: rgba(245, 245, 245, 0.448);
+        }
+       .mb-3 {
+        margin: 1rem 0rem;
+        
+      } 
+
+      .btn{
+        background: rgba(255, 255, 255, 0.044);
+        color: black;
+      }
+      body {
+        background-image: url("./image/backgrounimg5.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+      .form-control {
+        background: rgba(126, 156, 185, 0.604);
+      }
+      
+      h1{
+        color: rgba(245, 245, 245, 0.516);
+        text-align: center;
+      }
+      
+      hr{
+        color: whitesmoke;
+      }
+
+      h2{
+        color: whitesmoke;
+      }
+
+      .col-3{
+        color: whitesmoke;
+      }
+
+    </style>
+
+    <!-- internal CSS -->
+  </head>
+  <body>
+    <h1>Booking Details</h1>
+    <hr>
+    <!-- first row -->
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Text input with dropdown button"
+            />
+            <button
+              class="btn btn-outline-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              From
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#">Delhi</a></li>
+              <li><a class="dropdown-item" href="#">Mumbai</a></li>
+              <li><a class="dropdown-item" href="#">jammu</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Goa</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Text input with dropdown button"
+            />
+            <button
+              class="btn btn-outline-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              To
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#">jammu</a></li>
+              <li><a class="dropdown-item" href="#">Mumbai</a></li>
+              <li><a class="dropdown-item" href="#">Delhi</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Goa</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- first row -->
+
+
+
+    <!-- second row -->
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="input-group mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      aria-label="Text input with dropdown button"
+                    />
+                    <button
+                      class="btn btn-outline-secondary dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Preferred Airline
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">Air India</a></li>
+                      <li><a class="dropdown-item" href="#">IndiGo</a></li>
+                      <li><a class="dropdown-item" href="#">Emirates</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" href="#">Qantas</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                
+
+
+
+                <div class="col-6">
+                <div class="input-group mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      aria-label="Text input with dropdown button"
+                    />
+                    <button
+                      class="btn btn-outline-secondary dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Preferred Seating
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">seat-1</a></li>
+                      <li><a class="dropdown-item" href="#">seat-7</a></li>
+                      <li><a class="dropdown-item" href="#">seat-45</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" href="#">seat-9</a></li>
+                    </ul>
+                  </div>
+                </div>
+             </div>
+            </div>
+        </div>
+    </div>
+    <!-- second row -->
+
+    <!-- Third row -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="input-group mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      aria-label="Text input with dropdown button"
+                    />
+                    <button
+                      class="btn btn-outline-secondary dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Departure Date
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">12/Aug/2024</a></li>
+                      <li><a class="dropdown-item" href="#">1/Jan/2024</a></li>
+                      <li><a class="dropdown-item" href="#">26/Nov/2024</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" href="#">11/Oct/2023</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                
+
+
+
+                <div class="col-6">
+                <div class="input-group mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      aria-label="Text input with dropdown button"
+                    />
+                    <button
+                      class="btn btn-outline-secondary dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                    Departure Time
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">11:30pm</a></li>
+                      <li><a class="dropdown-item" href="#">23:00am</a></li>
+                      <li><a class="dropdown-item" href="#">10:15pm</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" href="#">04:30pm</a></li>
+                    </ul>
+                  </div>
+                </div>
+             </div>
+            </div>
+        </div>
+    </div>
+    <!-- Third row -->
+
+    <!-- Forth row -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="input-group mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      aria-label="Text input with dropdown button"
+                      placeholder="Adult(12+ Yrs)"
+                    />
+                    <button
+                      class="btn btn-outline-secondary dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">12/Aug/2024</a></li>
+                      <li><a class="dropdown-item" href="#">1/Jan/2024</a></li>
+                      <li><a class="dropdown-item" href="#">26/Nov/2024</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" href="#">11/Oct/2023</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+
+
+
+
+                <div class="col-4">
+                    <div class="input-group mb-3">
+                        <input
+                          type="text"
+                          class="form-control"
+                          aria-label="Text input with dropdown button"
+                          placeholder="Children(2-11 Yrs)"
+                        />
+                        <button
+                          class="btn btn-outline-secondary dropdown-toggle"
+                          type="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                          <li><a class="dropdown-item" href="#">12/Aug/2024</a></li>
+                          <li><a class="dropdown-item" href="#">1/Jan/2024</a></li>
+                          <li><a class="dropdown-item" href="#">26/Nov/2024</a></li>
+                          <li><hr class="dropdown-divider" /></li>
+                          <li><a class="dropdown-item" href="#">11/Oct/2023</a></li>
+                        </ul>
+                      </div>
+                    </div>
+    
+
+                
+
+
+
+                <div class="col-4">
+                <div class="input-group mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      aria-label="Text input with dropdown button"
+                      placeholder="Infant(Under 2-Yrs)"
+                    />
+                    <button
+                      class="btn btn-outline-secondary dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                    
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">11:30pm</a></li>
+                      <li><a class="dropdown-item" href="#">23:00am</a></li>
+                      <li><a class="dropdown-item" href="#">10:15pm</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li><a class="dropdown-item" href="#">04:30pm</a></li>
+                    </ul>
+                  </div>
+                </div>
+             </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+
+    <!-- Forth row -->
+
+
+
+    <!-- first row of second part -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <h2>Select Your fare</h2>
+
+            </div>
+
+            <div class="col-2">
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                    <label class="form-check-label" for="flexSwitchCheckChecked">One Way</label>
+                  </div>
+
+            </div>
+
+            <div class="col-2">
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                    <label class="form-check-label" for="flexSwitchCheckChecked">Round Trip</label>
+                  </div>
+
+            </div>
+
+            <div class="col-5">
+
+            </div>
+
+        </div>
+    </div>
+
+    <hr>
+    <!-- first row of second part -->
+
+
+    
+
+    <!-- first row of third part -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+
+
+
+
+
+
+<h2>Personal Details</h2>
+                <form class="needs-validation" novalidate="">
+                    <div class="row g-3">
+                      <div class="col-sm-6">
+                        <label for="firstName" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                          Valid first name is required.
+                        </div>
+                      </div>
+          
+                      <div class="col-sm-6">
+                        <label for="lastName" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                          Valid last name is required.
+                        </div>
+                      </div>
+          
+                      <div class="col-12">
+                        <label for="username" class="form-label">Username</label>
+                        <div class="input-group has-validation">
+                          <span class="input-group-text">@</span>
+                          <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                        <div class="invalid-feedback">
+                            Your username is required.
+                          </div>
+                        </div>
+                      </div>
+          
+                      <div class="col-12">
+                        <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
+                        <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                        <div class="invalid-feedback">
+                          Please enter a valid email address for shipping updates.
+                        </div>
+                      </div>
+          
+                      <div class="col-12">
+                        <label for="address" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                        <div class="invalid-feedback">
+                          Please enter your shipping address.
+                        </div>
+                      </div>
+          
+                      <div class="col-12">
+                        <label for="address2" class="form-label">Address 2 <span class="text-body-secondary">(Optional)</span></label>
+                        <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                      </div>
+          
+                      <div class="col-md-5">
+                        <label for="country" class="form-label">Country</label>
+                        <select class="form-select" id="country" required="">
+                          <option value="">Choose...</option>
+                          <option>United States</option>
+                        </select>
+                        <div class="invalid-feedback">
+                          Please select a valid country.
+                        </div>
+                      </div>
+          
+                      <div class="col-md-4">
+                        <label for="state" class="form-label">State</label>
+                        <select class="form-select" id="state" required="">
+                          <option value="">Choose...</option>
+                          <option>California</option>
+                        </select>
+                        <div class="invalid-feedback">
+                          Please provide a valid state.
+                        </div>
+                      </div>
+          
+                      <div class="col-md-3">
+                        <label for="zip" class="form-label">Zip</label>
+                        <input type="text" class="form-control" id="zip" placeholder="" required="">
+                        <div class="invalid-feedback">
+                          Zip code required.
+                        </div>
+                      </div>
+                    </div>  
+                  </form>
+                </div>
+        </div>
+    </div>
+
+    <!-- first row of third part -->
+  </body>
+</html>
